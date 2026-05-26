@@ -1,0 +1,10 @@
+<svg width="260" height="62" viewBox="0 0 260 62" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title>Horizon Studios</title>
+<desc>Logotipo Horizon Interactive Studios</desc>
+<rect x="1" y="1" width="260" height="60" rx="16" fill="rgba(255,255,255,0.03)" stroke="rgba(76,201,255,0.35)"/>
+<path d="M23 40.5V21.5H29.2V28.4H39.9V21.5H46.1V40.5H39.9V33.5H29.2V40.5H23Z" fill="white"/>
+<circle cx="58" cy="31" r="9" fill="url(#g)"/>
+<text x="76" y="29" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="800" fill="white">Horizon</text>
+<text x="76" y="46" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#4CC9FF" letter-spacing="2.5">STUDIOS</text>
+<defs><linearGradient id="g" x1="49" y1="21" x2="68" y2="42" gradientUnits="userSpaceOnUse"><stop stop-color="#4CC9FF"/><stop offset="1" stop-color="#1E7BFF"/></linearGradient></defs>
+</svg>

@@ -1,0 +1,11 @@
+<svg width="900" height="450" viewBox="0 0 900 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="900" height="450" rx="34" fill="#050B14"/>
+<circle cx="120" cy="80" r="170" fill="#1E7BFF" opacity="0.16"/>
+<circle cx="760" cy="370" r="190" fill="#4CC9FF" opacity="0.10"/>
+<path d="M72 330C168 238 254 198 358 224C462 250 536 218 630 134C704 68 795 68 850 100" stroke="url(#line)" stroke-width="3" opacity="0.42"/>
+<text x="72" y="145" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="900" fill="white" letter-spacing="-3">TECNOLOGIA,</text>
+<text x="72" y="222" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="900" fill="white" letter-spacing="-3">DESENVOLVIMENTO</text>
+<text x="72" y="300" font-family="Arial, Helvetica, sans-serif" font-size="68" font-weight="900" fill="url(#text)" letter-spacing="-3">E INOVAÇÃO</text>
+<text x="76" y="355" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="600" fill="rgba(255,255,255,0.68)" letter-spacing="4">HORIZON INTERACTIVE STUDIOS</text>
+<defs><linearGradient id="text" x1="72" y1="245" x2="540" y2="330"><stop stop-color="#4CC9FF"/><stop offset="1" stop-color="#1E7BFF"/></linearGradient><linearGradient id="line" x1="72" y1="330" x2="850" y2="100"><stop stop-color="#4CC9FF"/><stop offset="1" stop-color="#1E7BFF"/></linearGradient></defs>
+</svg>

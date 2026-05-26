@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio de Vídeo | Igor Siviero Nogueira</title>
+  <meta name="description" content="Portfólio de edição de vídeo da Horizon Interactive Studios.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-default-view="video">
+  <nav class="nav" aria-label="Navegação principal">
+    <div class="nav__inner">
+      <a class="nav__logo" href="index.html" aria-label="Horizon Interactive Studios">
+        <img class="nav__logo-img" src="assets/img/horizon-logo.png" alt="Horizon Interactive Studios">
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Trajetória</a></li>
+        <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+        <li><a href="portfolio-design.html">Portfólio Design</a></li>
+        <li><a href="portfolio-video.html" class="active">Portfólio Vídeo</a></li>
+      </ul>
+
+      <a href="https://wa.me/5511944758109" class="nav__cta desktop" target="_blank" rel="noopener">Entrar em Contato</a>
+
+      <button class="nav__hamburger" aria-label="Abrir menu" aria-expanded="false" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" id="mobileMenu" role="navigation" aria-label="Menu mobile">
+    <a href="index.html">Trajetória</a>
+    <a href="desenvolvimento.html">Desenvolvimento</a>
+    <a href="portfolio-design.html">Portfólio Design</a>
+    <a href="portfolio-video.html" class="active">Portfólio Vídeo</a>
+    <a href="https://wa.me/5511944758109" class="nav__cta" target="_blank" rel="noopener">Entre em Contato</a>
+  </div>
+
+  <main class="page-shell">
+    <section class="portfolio-hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="page-kicker">Igor Siviero Nogueira</div>
+          <h1 class="page-title">Portfólio AudioVisual</h1>
+
+          <div class="site-switch hero-portfolio-switch" aria-label="Navegação entre páginas">
+            <a href="index.html" class="site-switch__btn hero-switch-btn">
+              <span>Conheça minha</span>
+              Trajetória
+            </a>
+            <a href="desenvolvimento.html" class="site-switch__btn hero-switch-btn">
+              <span>Portfólio</span>
+              Desenvolvimento
+            </a>
+            <a href="portfolio-design.html" class="site-switch__btn hero-switch-btn">
+              <span>Portfólio</span>
+              Design
+            </a>
+            <a href="portfolio-video.html" class="site-switch__btn hero-switch-btn active">
+              <span>Portfólio</span>
+              Vídeo
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Resumo do portfólio">
+          <div class="panel-metric">
+            <span id="totalDesign">0</span>
+            <small>Artes</small>
+          </div>
+          <div class="panel-metric">
+            <span id="totalVideo">0</span>
+            <small>Vídeos</small>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="portfolio-section">
+      <div class="container">
+        <div class="section-top">
+          <div>
+            <div class="page-kicker" id="viewKicker">Portfólio de Vídeo</div>
+            <h2 class="section-title" id="viewTitle">Edições, campanhas e conteúdos audiovisuais.</h2>
+            <p class="section-description" id="viewDescription">Clique em qualquer miniatura para abrir o vídeo em tela cheia.</p>
+          </div>
+          <div class="portfolio-count" id="portfolioCount">Carregando...</div>
+        </div>
+
+        <div class="portfolio-toolbar">
+          <div class="filter-pills" id="filterPills" aria-label="Filtros de formato"></div>
+        </div>
+
+        <div class="empty-state" id="emptyState" hidden>
+          <h3>Nenhum item encontrado</h3>
+          <p>Não há projetos disponíveis nesta seleção.</p>
+        </div>
+
+        <div class="portfolio-grid" id="portfolioGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog" aria-label="Visualização ampliada">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fechar">×</button>
+    <div class="lightbox-content">
+      <div class="lightbox-media" id="lightboxMedia"></div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <img class="footer-logo-img" src="assets/img/horizon-logo-footer.png" alt="Horizon Interactive Studios">
+      <p>© 2026 Horizon Interactive Studios. Todos os direitos reservados.</p>
+      <a href="https://wa.me/5511944758109" class="btn btn--primary" target="_blank" rel="noopener">Falar no WhatsApp</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/portfolio-data.js"></script>
+  <script src="assets/js/portfolio.js"></script>
+</body>
+</html>

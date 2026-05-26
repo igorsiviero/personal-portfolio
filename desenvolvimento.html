@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desenvolvimento | Igor Siviero Nogueira</title>
+  <meta name="description" content="Portfólio de desenvolvimento de software de Igor Siviero Nogueira: sites, sistemas, interfaces e projetos digitais.">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="desenvolvimento">
+  <nav class="nav" aria-label="Navegação principal">
+    <div class="nav__inner">
+      <a class="nav__logo" href="index.html" aria-label="Horizon Interactive Studios">
+        <img class="nav__logo-img" src="assets/img/horizon-logo.png" alt="Horizon Interactive Studios">
+      </a>
+
+      <ul class="nav__links" role="list">
+        <li><a href="index.html">Trajetória</a></li>
+        <li><a href="desenvolvimento.html" class="active">Desenvolvimento</a></li>
+        <li><a href="portfolio-design.html">Portfólio Design</a></li>
+        <li><a href="portfolio-video.html">Portfólio Vídeo</a></li>
+      </ul>
+
+      <a href="https://wa.me/5511944758109" class="nav__cta desktop" target="_blank" rel="noopener">Entrar em Contato</a>
+
+      <button class="nav__hamburger" aria-label="Abrir menu" aria-expanded="false" id="hamburger" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav__mobile" id="mobileMenu" role="navigation" aria-label="Menu mobile">
+    <a href="index.html" onclick="closeMenu()">Trajetória</a>
+    <a href="desenvolvimento.html" onclick="closeMenu()" class="active">Desenvolvimento</a>
+    <a href="portfolio-design.html" onclick="closeMenu()">Portfólio Design</a>
+    <a href="portfolio-video.html" onclick="closeMenu()">Portfólio Vídeo</a>
+    <a href="https://wa.me/5511944758109" class="nav__cta" target="_blank" rel="noopener">Entrar em Contato</a>
+  </div>
+
+  <main class="page-shell development-page">
+    <section class="portfolio-hero development-hero">
+      <div class="container hero-grid dev-hero">
+        <div>
+          <div class="page-kicker">Desenvolvimento de Software</div>
+          <h1 class="page-title">Portfólio Desenvolvedor.</h1>
+
+          <div class="site-switch hero-portfolio-switch" aria-label="Navegação entre páginas">
+            <a href="index.html" class="site-switch__btn hero-switch-btn">
+              <span>Conheça minha</span>
+              Trajetória
+            </a>
+            <a href="desenvolvimento.html" class="site-switch__btn hero-switch-btn active">
+              <span>Portfólio</span>
+              Desenvolvimento
+            </a>
+            <a href="portfolio-design.html" class="site-switch__btn hero-switch-btn">
+              <span>Portfólio</span>
+              Design
+            </a>
+            <a href="portfolio-video.html" class="site-switch__btn hero-switch-btn">
+              <span>Portfólio</span>
+              Vídeo
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-panel dev-hero-panel" aria-label="Resumo dos projetos de desenvolvimento">
+          <span class="dev-panel-number" id="devCountHero">00</span>
+          <p>projetos publicados</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="portfolio-section development-section">
+      <div class="container">
+        <div class="section-top dev-section-top">
+          <div>
+            <div class="page-kicker">Projetos de Desenvolvimento</div>
+            <h2 class="section-title">Sites, sistemas e interfaces.</h2>
+            <p class="section-description">Toque em qualquer miniatura para expandir o projeto e visualizar detalhes, tecnologias e links externos disponíveis.</p>
+          </div>
+        </div>
+
+        <div class="dev-toolbar" aria-label="Filtros de tecnologia">
+          <div>
+            <label class="form-label" for="devSearch">Buscar projeto</label>
+            <input id="devSearch" class="form-input" type="search" placeholder="Digite tecnologia, título ou descrição">
+          </div>
+          <div>
+            <label class="form-label" for="devTechFilter">Filtrar tecnologia</label>
+            <select id="devTechFilter" class="form-select"><option value="all">Todas as tecnologias</option></select>
+          </div>
+        </div>
+
+        <div class="empty-state" id="devEmptyState" hidden>
+          <h3>Nenhum projeto encontrado</h3>
+          <p>Não há projetos disponíveis para esse filtro.</p>
+        </div>
+
+        <div class="development-grid" id="developmentGrid"></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="dev-modal" id="devModal" aria-modal="true" role="dialog" aria-labelledby="devModalTitle">
+    <button class="dev-modal-close" id="devModalClose" aria-label="Fechar">×</button>
+    <div class="dev-modal-card">
+      <div class="dev-modal-media" id="devModalMedia"></div>
+      <aside class="dev-modal-info">
+        <span class="page-kicker">Projeto expandido</span>
+        <h2 id="devModalTitle"></h2>
+        <p id="devModalDescription"></p>
+        <div class="dev-modal-section">
+          <strong>Tecnologias utilizadas</strong>
+          <div class="dev-tech-list" id="devModalTechs"></div>
+        </div>
+        <div class="dev-modal-actions" id="devModalActions"></div>
+      </aside>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <img class="footer-logo-img" src="assets/img/horizon-logo-footer.png" alt="Horizon Interactive Studios">
+      <p>© 2026 Horizon Interactive Studios. Todos os direitos reservados.</p>
+      <a href="https://wa.me/5511944758109" class="btn btn--primary" target="_blank" rel="noopener">Falar no WhatsApp</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/desenvolvimento-data.js"></script>
+  <script src="assets/js/desenvolvimento.js"></script>
+</body>
+</html>

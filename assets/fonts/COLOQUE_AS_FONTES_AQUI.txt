@@ -1,0 +1,2 @@
+Coloque aqui os arquivos HelveticaNowDisplay usados no projeto, se quiser manter a fonte personalizada.
+Os arquivos de fonte não foram incluídos neste pacote.
